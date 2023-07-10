@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* navigation starts here  */
+.navigation {
+  background-color: rgb(66, 65, 65);
+  padding: 20px;
+  list-style: none;
+  color: rgb(196, 196, 196);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo img {
+  width: 120px;
+}
+.menu {
+  display: flex;
+}
+.item {
+  margin-right: 10px;
+  font-size: 18px;
+  padding-right: 0px;
+  cursor: pointer;
+}
+.item:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+/* navigation ends here  */
+
