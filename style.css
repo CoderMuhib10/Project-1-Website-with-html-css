@@ -31,3 +31,42 @@
 }
 /* navigation ends here  */
 
+/* banner starts here  */
+.vector {
+    width: 300px;
+  }
+  .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/background.png"),
+      /*this comma is important in case of applying linear gradient*/
+        linear-gradient(45deg, rgb(0, 0, 0), rgb(53, 53, 53));
+  }
+  .banner-text {
+    color: rgb(255, 255, 255);
+  }
+  .title {
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .btn{
+      padding: 10px 20px;
+     border-radius: 2px;
+      border: 2px solid rgb(255, 25, 0);
+      background-color: Transparent;
+      cursor:pointer;
+      color: white;
+  }
+  .btn:hover{
+      background-color: rgb(255, 25, 0)
+  }
+  /* banner ends here  */
+
+  /* about starts here  */
